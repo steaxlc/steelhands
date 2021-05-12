@@ -1,0 +1,296 @@
+body{
+  
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  width: 100%;
+}
+
+#video-home{
+  position: fixed;
+  z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+  #video-home{
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9){
+  #video-home{
+    width: auto;
+    height: 100%;
+  }
+}
+
+
+.centralizar{
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-bottom: 1px solid grey;
+}
+
+.cartao{
+  margin: 30px 15px 15px 15px;
+}
+
+footer{
+  background: black;
+}
+
+footer .navbar-nav a{
+  color: white;
+  font-size: 0.8em;
+  text-decoration: none;
+}
+
+footer .navbar-nav a:hover{
+  color: #f9a98e;
+}
+
+.icone-rodape{
+  margin: 0 10px;
+  padding: 10px;
+}
+
+
+.imagem-rodape{
+  margin: 15;
+  padding: 15px;
+}
+
+footer ul{
+  list-style: none;
+}
+
+
+@media (max-width: 575.98px) {  
+  .img-capa{
+  width: 90%;
+  margin-top: 80px;
+}
+  #video-home{
+    align-self: center;
+  }
+  #musica{
+    height: 250%;
+  }
+  
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {  
+  .img-capa{
+  width: 90%;
+  margin-top: 80px;
+}
+#video-home{
+    align-self: center;
+  }
+  #musica{
+    height: 250%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {  
+  .img-capa{
+  width: 70%;
+  margin-top: 80px;
+}
+#video-home{
+    align-self: center;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {  
+  .img-capa{
+  width: 53%;
+  margin-top: 80px;
+}
+#video-home{
+    align-self: center;
+  }
+}
+
+@media (min-width: 1200px) {  
+.img-capa{
+  width: 40%;
+  margin-top: 80px;
+}
+#video-home{
+    align-self: center;
+  }
+
+}
+
+html, body, #home{
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.caixa{
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#home{
+  text-align: center;
+  height: 100%;
+}
+
+#tour{
+  background: white;
+}
+
+nav.navbar-transparente{
+  background: rgba(0,0,0,0.6);
+  padding: 15px 0;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: white;
+  padding: 15px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #f9a98e;
+}
+
+h3{
+  text-align: center;
+}
+
+
+/*Inicio Sobre Nós*/
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6{
+  position: relative;
+  height: 100%;
+  opacity: 0.7;
+  background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+}
+
+.caixa1{
+  background-image: url("../images/show1.jpg");
+}
+.caixa2{
+  background-image: url("../images/show2.jpg");
+}
+.caixa3{
+  background-image: url("../images/show3.jpg");
+}
+.caixa4{
+  background-image: url("../images/show4.jpg");
+}
+.caixa5{
+  background-image: url("../images/show6.jpg");
+}
+.caixa6{
+  background-image: url("../images/show7.jpg");
+}
+
+.img-arredondada{
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+}
+
+.conteudo{
+  color: #777;
+  background: white;
+  text-align: justify;
+  padding: 50px 80px;
+}
+
+.conteudo-titulo{
+  position: absolute;
+  left: 0;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+}
+
+.conteudo-titulo span.titulo{
+  color: white;
+  background-color: #111;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+/*Fim Sobre Nós*/
+
+/*Inicio Musica*/
+#musica, #contato{
+  background: url("../images/backalbum.png");
+  background-size: 100px;
+  color: white;
+}
+
+.capa-album{
+  border: 1px solid white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  margin: 0 0 40px 0;
+  
+}
+
+#layout-musica{
+  text-align: center;
+  height: 100%;
+}
+
+.icones-musica{
+  color: white
+}
+
+.icones-musica:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.menu-musica{
+  margin-top: 30px;
+}
+
+.menu-musica ul li{
+  
+  margin-right: 23px;
+  margin-left: 23px;
+}
+
+.menu-musica ul li a{
+  margin-top: 30px;
+}
+
+.tabela{
+  font-size: 1.2em;
+}
+
+.tabela p{
+  font-size: 0.7em;
+}
+
+.divisor{
+  width: 1px;
+  background: white;
+  margin: 20px 15px;
+}
+
+.comprar-letras a, .comprar-letras a:hover{
+  color: white;
+  text-decoration: none;
+}
+/*Fim Musica*/
+
+/*Inicio Contato*/
+.layout-contato{
+  height: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
